@@ -1,0 +1,36 @@
+.box {
+  border-color: blue;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #f00;
+  background-color: #ff0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+h2, h3, h4, h5, h6 {
+  color: blue;
+}
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+}
